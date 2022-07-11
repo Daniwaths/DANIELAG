@@ -177,9 +177,8 @@ nav {
       text-align:center;
       font-weight: bold;
       padding:10px 0px 10px 0px;
-      background:#6666ff;
-      width:100%;
-      display: block;
+      
+     
   }
   .menu ul li a{
       width:100%;
@@ -233,16 +232,16 @@ nav {
 
 
 
-/** pagina que aparece al hacer click en herader **/
+/** news **/
 
    .card-body{
 
-    background-color:#000;
+    background-color:rgb(48, 49, 47);
   color: white;
    }
 
    
-/** pagina que aparece al hacer click en herader **/
+/** news **/
 
 
 
@@ -372,3 +371,70 @@ footer{
 
     }
     
+
+
+
+
+    /** del news*/
+
+    *{
+      padding: 0;
+      margin: 0;
+      font-family: 'Josefin Sans', sans-serif;
+      box-sizing: border-box;
+    }
+    
+    
+    
+    .about{
+      width: 100%;
+      padding: 100px 0px;
+      
+    }
+    .about img{
+      height: auto;
+      width: 430px;
+    }
+    .about-text{
+      width: 550px;
+    }
+    .main{
+      width: 1130px;
+      max-width: 95%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .about-text h2{
+      color: white;
+      font-size: 75px;
+      text-transform: capitalize;
+      margin-bottom: 20px;
+    }
+    .about-text h4{
+      color: white;
+      letter-spacing: 2px;
+      font-size: 22px;
+      margin-bottom: 25px;
+      text-transform: capitalize;
+    }
+    .about-text p{
+      color: rgba(0, 0, 0, 0.8);
+      letter-spacing: 1px;
+      line-height: 28px;
+      font-size: 18px;
+      margin-bottom: 45px;
+    }
+    
+    
+    
+    .title h2{
+      color: white;
+      font-size: 75px;
+      width: 1130px;
+      margin: 30px auto;
+      text-align: center;
+    }
+    
+        /** del news*/

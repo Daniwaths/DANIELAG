@@ -7,7 +7,24 @@ body {
     
     }
   
-   
+
+    /*maps*/
+
+    $estilos: (
+      color:#fff,
+      tFuente: 15px,
+      centro: center,
+
+       
+    )
+
+    .menu ul li a{
+
+      color: map-get($estilos: , color);
+      text-align: map-get ($estilos, center);
+      font-size: map-get ($estilos, tFuente;)
+    }
+     /*maps*/
   
   
   

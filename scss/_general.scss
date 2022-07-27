@@ -18,6 +18,22 @@ body {
        
     )
 
+ /*mixin*/
+
+    $mixin: navmenu (
+
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      min-height: 8vh;
+      font-family:Arial, Helvetica, sans-serif;
+    )
+
+
+
+
+    
+
     .menu ul li a{
 
       color: map-get($estilos: , color);
@@ -110,7 +126,9 @@ body {
   
   
   
-  
+  /** para que no desaparesca el original
+
+
   nav {
     display: flex;
     justify-content: space-around;
@@ -122,9 +140,21 @@ body {
     
    }
   
+  **/ 
+
+
+  nav {
+    @include navmenu ();
+
+
+  }
   
+
+
+
+
+
   
-  /** menu **/
   
   /** menu **/
   

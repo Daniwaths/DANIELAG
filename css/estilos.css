@@ -19,7 +19,7 @@ body {
 
 .responsive:hover .gallery{    /* efecto en las imagenes */
 
-  transform:  scale(1.8);
+  transform:  scale(2.0);
   z-index: 2;
 }
 
